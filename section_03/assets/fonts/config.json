@@ -1,0 +1,38 @@
+{
+  "name": "MeeduIcons",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4c0d0187a14f0358653d01e6a3888821",
+      "css": "google",
+      "code": 59393,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M562.5 450V575H857.5C827.5 750 687.5 875 512.5 875 307.5 875 137.5 705 137.5 500S307.5 125 512.5 125C617.5 125 707.5 170 772.5 240L862.5 150C772.5 60 652.5 0 512.5 0 237.5 0 12.5 225 12.5 500S237.5 1000 512.5 1000 987.5 775 987.5 500V450H562.5Z",
+        "width": 1000
+      },
+      "search": [
+        "google"
+      ]
+    },
+    {
+      "uid": "4fc6f9bbda5146246747cbcdcfea84d2",
+      "css": "facebook",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M577.4 1000V543.9H730.5L753.4 366.1H577.4V252.6C577.4 201.1 591.7 166 665.6 166L759.6 166V7C743.4 4.8 687.5 0 622.5 0 486.8 0 393.9 82.8 393.9 235V366.1H240.4V543.9H393.9V1000H577.4Z",
+        "width": 1000
+      },
+      "search": [
+        "facebook"
+      ]
+    }
+  ]
+}

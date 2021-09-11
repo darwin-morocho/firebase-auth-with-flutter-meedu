@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer(builder: (_, ref, __) {
-      final theme = ref.watch(themeProvider);
+    return Consumer(builder: (_, watch, __) {
+      final theme = watch(themeProvider);
       return MaterialApp(
         key: router.appKey,
         title: 'Flutter FA',

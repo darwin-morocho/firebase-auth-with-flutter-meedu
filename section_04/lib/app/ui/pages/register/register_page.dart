@@ -101,8 +101,8 @@ class RegisterPage extends StatelessWidget {
                               ),
                               const SizedBox(height: 15),
                               Consumer(
-                                builder: (_, ref, __) {
-                                  ref.watch(
+                                builder: (_, watch, __) {
+                                  watch(
                                     registerProvider.select(
                                       (_) => _.password,
                                     ),

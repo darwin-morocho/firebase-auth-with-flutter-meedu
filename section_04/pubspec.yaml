@@ -31,7 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: "^1.4.0"
   firebase_auth: "^3.0.1"
-  flutter_meedu: "^5.0.0"
+  flutter_meedu: "^4.4.1"
   freezed: ^0.14.3
   shared_preferences: ^2.0.6
   google_fonts: ^2.1.0

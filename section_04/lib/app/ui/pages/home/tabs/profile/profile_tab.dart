@@ -36,8 +36,8 @@ class ProfileTab extends ConsumerWidget {
   }
 
   @override
-  Widget build(BuildContext context, ref) {
-    final sessionController = ref.watch(sessionProvider);
+  Widget build(BuildContext context, watch) {
+    final sessionController =watch(sessionProvider);
     final isDark = context.isDarkMode;
     final user = sessionController.user!;
 

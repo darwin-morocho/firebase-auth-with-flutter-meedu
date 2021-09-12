@@ -25,7 +25,7 @@ class SocialButtons extends StatelessWidget {
           onPressed: () => signInWithGoogle(context),
           iconData: MeeduIcons.google,
         ),
-        if (!Platform.isIOS) ...[
+        if (Platform.isIOS) ...[
           const SizedBox(width: 15),
           SocialButton(
             color: Colors.grey,
